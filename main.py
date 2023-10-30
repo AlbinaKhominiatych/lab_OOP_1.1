@@ -1,15 +1,4 @@
-'''Завдання 2
- Створіть клас Circle з атрибутом radius та методом
-area, який поверне площу кола з вказаним радіусом.'''
-import math
-
-class Circle:
-    def __init__(self, radius):
-        self.radius = radius
-
-    def area(self):
-        return math.pi * self.radius ** 2
-
-# Створення екземпляра класу
-circle1 = Circle(5)
-print(round(circle1.area(), 2))
+"""Створіть клас Book з атрибутами title (назва
+книги), author (автор) та genre (жанр). Додайте метод
+display_info, який виведе інформацію про книгу у
+вигляді "Назва: {title}, Автор: {author}, Жанр: {genre}"."""
